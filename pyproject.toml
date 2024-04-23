@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "training"
+version = "0.1.0"
+description = ""
+authors = ["Asma Balti  <baltiassma@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+scikit-learn = "^1.4.2"
+matplotlib = "^3.8.4"
+seaborn = "^0.13.2"
+xgboost = "^2.0.3"
+
+
+[[tool.poetry.source]]
+name = "PyPI"
+priority = "primary"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
