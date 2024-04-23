@@ -9,7 +9,8 @@ The project follows a set of main steps, detailed as follows:
 ### Input Preparation
  
 In the initial phase, the input data is prepared by identifying and handling high correlation between features. This is important to ensure that our models do not overfit due to redundant information.
-Feature Selection
+
+### Feature Selection
  
 Next, Principal Component Analysis (PCA) is applied to the data. PCA is a dimensionality reduction technique that transforms the data into a new coordinate system in which the greatest variance by any projection of the data lies on the first coordinate (called the first principal component), the second greatest variance on the second coordinate, and so on. This helps in removing redundant features and reducing the dimensionality of the data.
 
